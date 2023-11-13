@@ -69,6 +69,18 @@
               background-color: rgba(15, 15, 15, 0.856);
               cursor: pointer;
             }
+            #top-scrl{
+              /*border-style: solid;
+              position: fixed;
+              z-index: 1;
+              bottom: 25px;
+              right: 25px;*/
+            }
+            #top-arrow{
+              color: aqua;
+              font-size: 2.5rem;
+              cursor: pointer;
+            }
             .progress{
               height: 12px;
             }
@@ -82,6 +94,7 @@
         </style>
     </head>
     <body onload="showDiv()">
+     <!-- <div id="top-scrl"><a href="#profile-section"><i class="fa-solid fa-up-long" id="top-arrow" ></i></a></div> -->
      <div onclick="hideDiv()" id="overlay" class="">
         <div id="info" class="container" style="height: fit-content;margin-top: 20%;">
           <p class="text-light text-center" style="font-size: 19px;font-family: Arial, Helvetica, sans-serif;">This site contains only one page with multiple section, simply developed for testing purpose.</p>
@@ -218,7 +231,7 @@
                     <div  class="card-body">
                       <i class="fa-brands fa-git-alt"></i> Git 
                       <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" style="width:60%; font-weight: bold; background-color: rgb(109, 44, 230);"></div>
+                        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" style="width:80%; font-weight: bold; background-color: rgb(109, 44, 230);"></div>
                       </div>
                     </div>
                   </div>
