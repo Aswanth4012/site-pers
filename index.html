@@ -6,95 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Aswanth Portfolio</title>
         <link rel="icon" type="image/x-icon" href="mx.jpg">
+        <!-- bootstrap CDN links-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-        <style>
-            .nav-link:hover{
-                color: aqua;
-            }
-            #p1{
-                font-size:18px;
-                font-weight: bold;
-            }.navbar-brand{
-              font-weight: bold;
-            }
-            .nav-link{
-              font-weight: bold;
-              color: white;
-            }
-            .icon{
-              transition: transform.2s;
-              
-              height: fit-content;
-            }
-            #links-connect{
-
-            }
-            .i{
-              color: white;
-            }
-            .icon:hover{
-              transform: scale(1.5);
-            }
-            #contact-me{
-              background: linear-gradient(rgb(114, 47, 238), rgb(125, 62, 243));
-            }
-            .l-contact{
-              color: white;
-            }
-            .p-contact{
-              color: white;
-              font-size: 12px;
-            }  
-            .h-skills{
-              color: rgb(109, 112, 104);
-            }    
-            #btn-submit:hover{
-              background-color: rgb(197, 169, 75);
-            }   
-            #profile-section{
-              background: white /*linear-gradient(rgb(130, 49, 223),rgb(111, 0, 255));*/
-            }
-           #overlay{
-              display: none;
-              
-              position: fixed;
-              height: 100%;
-              width: 100%;
-              bottom: 0;
-              top: 0;
-              left: 0;
-              right: 0;
-              z-index: 2;
-              background-color: rgba(15, 15, 15, 0.856);
-              cursor: pointer;
-            }
-            #top-scrl{
-              /*border-style: solid;
-              position: fixed;
-              z-index: 1;
-              bottom: 25px;
-              right: 25px;*/
-            }
-            #top-arrow{
-              color: aqua;
-              font-size: 2.5rem;
-              cursor: pointer;
-            }
-            .progress{
-              height: 12px;
-            }
-            .service-icon{
-              color: rgb(109, 44, 230);;
-              font-size: 50px
-            }
-            #nav-bar{
-              background:linear-gradient(rgb(114, 47, 238), rgb(125, 62, 243))
-            }
-            /*#info{
-              /*border-style: solid;*
-            }*/
-        </style>
+        <!-- external css file-->
+        <link rel="stylesheet" href="style.css">
+        
     </head>
     <body onload="showDiv()">
      <!-- <div id="top-scrl"><a href="#profile-section"><i class="fa-solid fa-up-long" id="top-arrow" ></i></a></div> -->
@@ -132,6 +49,9 @@
                   </div>
                 </div>
               </nav>
+
+              <!-- introduction section-->
+
               <section id="profile-section" class="p-4">
                 <div class="container pt-5">
                     <div class="row align-items-center gy-3 mt-4">
@@ -154,6 +74,9 @@
                     </div>
                 </div>
               </section>
+
+              <!-- about me section-->
+
               <section class="bg-light p-4" id="about-me">
                 <div class="container">
                   <div class="col-12 col-md-12 text-center">
@@ -166,6 +89,9 @@
                   </div>
                 </div>
               </section>
+
+              <!-- skills section -->
+
               <section class="" id="skills">
                 <div class="container pb-4">
                   <div class="row">
@@ -273,6 +199,9 @@
                   </div>
                 </div>
               </section>
+
+              <!-- services section -->
+
               <section id="services" class="bg-light pb-3" style="background-color: #28c9be">
                 <div class="container">
                   <div class="page-header pt-3 pb-3"><h2 class="text-center">Services</h2></div>
@@ -334,6 +263,9 @@
                   </div>
                 </div>
               </section>
+
+              <!-- contact section-->
+
               <section class=" pb-4" id="contact-me">
                 <div class="container">
                   <div class="header text-center p-3">
@@ -380,6 +312,9 @@
                   </div>
                 </div>
               </section>
+
+              <!-- footer section-->
+
               <footer class="bg-dark">
                 <div class="pt-3 foot-copy" style="text-align: center;height: fit-content;">
                   
@@ -390,39 +325,15 @@
                 </div>
               </footer>
         </div>
+        <!-- CDN links -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/11998b0979.js" crossorigin="anonymous"></script>
-        <script>
-          $("#submit-form").submit((e)=>{
-              e.preventDefault()
-              $.ajax({
-                  url:"https://script.google.com/macros/s/AKfycbwhW5gmZKLbiCyeVxw6VJKFKAr-9q-8o69Jp13o61HySBe1EReGulCTsoE5r4Bn5tAIbQ/exec",
-                  data:$("#submit-form").serialize(),
-                  method:"post",
-                  success:function (response){
-                      alert("Form submitted successfully")
-                      window.location.reload()
-                      //window.location.href="https://google.com"
-                  },
-                  error:function (err){
-                      alert("Something Error")
-      
-                  }
-              })
-          })
-
-          /*function showDiv(){
-            document.getElementById("overlay").style.display = "block"
-          }
-
-          function hideDiv(){
-            document.getElementById("overlay").style.display = "none"
-          }*/
-      </script>
+        <!--external js file -->
+        <script src="script.js"></script>
         
     </body>
 </html>

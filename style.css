@@ -1,0 +1,86 @@
+.nav-link:hover{
+    color: aqua;
+}
+#p1{
+    font-size:18px;
+    font-weight: bold;
+}.navbar-brand{
+  font-weight: bold;
+  /*font-size: 29px;*/
+}
+.nav-link{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+.icon{
+  transition: transform.2s;
+  
+  height: fit-content;
+}
+#links-connect{
+
+}
+.i{
+  color: white;
+}
+.icon:hover{
+  transform: scale(1.5);
+}
+#contact-me{
+  background: linear-gradient(rgb(114, 47, 238), rgb(125, 62, 243));
+}
+.l-contact{
+  color: white;
+}
+.p-contact{
+  color: white;
+  font-size: 12px;
+}  
+.h-skills{
+  color: rgb(109, 112, 104);
+}    
+#btn-submit:hover{
+  background-color: rgb(197, 169, 75);
+}   
+#profile-section{
+  background: white /*linear-gradient(rgb(130, 49, 223),rgb(111, 0, 255));*/
+}
+#overlay{
+  display: none;
+  
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: rgba(15, 15, 15, 0.856);
+  cursor: pointer;
+}
+#top-scrl{
+  /*border-style: solid;
+  position: fixed;
+  z-index: 1;
+  bottom: 25px;
+  right: 25px;*/
+}
+#top-arrow{
+  color: aqua;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.progress{
+  height: 12px;
+}
+.service-icon{
+  color: rgb(109, 44, 230);;
+  font-size: 50px
+}
+#nav-bar{
+  background:linear-gradient(rgb(114, 47, 238), rgb(125, 62, 243))
+}
+/*#info{
+  /*border-style: solid;*
+}*/
