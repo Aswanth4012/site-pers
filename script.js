@@ -1,3 +1,8 @@
+$(document).ready(function(){
+  $("#icon-to-portfolio").click(function(){
+    $("#sec-portfolio").slideToggle(1000);
+  })
+}),
 $("#submit-form").submit((e)=>{
     e.preventDefault()
     $.ajax({

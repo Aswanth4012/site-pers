@@ -81,6 +81,16 @@
 #nav-bar{
   background:linear-gradient(rgb(114, 47, 238), rgb(125, 62, 243))
 }
+#sec-portfolio{
+  display: none;
+}
+#btn-to-portfolio{
+  position: relative;
+  cursor: pointer;
+  
+  width: fit-content;
+}
+
 /*#info{
   /*border-style: solid;*
 }*/
