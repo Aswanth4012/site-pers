@@ -21,10 +21,10 @@ $("#submit-form").submit((e)=>{
     })
 })
 
-/*function showDiv(){
+function showDiv(){
   document.getElementById("overlay").style.display = "block"
 }
 
 function hideDiv(){
   document.getElementById("overlay").style.display = "none"
-}*/
+}
