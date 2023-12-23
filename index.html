@@ -57,14 +57,14 @@
                 <div class="container pt-5">
                     <div class="row align-items-center gy-3 mt-4">
                         
-                        <div class="col-12 col-md-5" style="text-align: justify;">
-                            <h3 style="color:rgb(25, 26, 26);font-weight:bold;">Hi, I'm Aswanth</h3>
+                        <div class="col-12 col-md-8" id="content">
+                            <h3 style="color:rgb(25, 26, 26);font-weight:bold;" id="name-header">Hi, I'm Aswanth</h3>
                             <p class="text-secondary" id="p1">Web Developer</p>
                             <p class="text-dark">Passionate frontend developer, specialized in creating visually appealing and user-friendly web interfaces. I am dedicated to continuous learning and have a strong passion for optimizing web experiences</p>
                         </div>
-                        <div class="col-12 col-md-5 mx-auto">
+                        <div class="col-12 col-md-4 mx-auto">
                             <div>
-                              <img class="rounded-circle" src="https://media.licdn.com/dms/image/D5603AQFjUz0M6VFEMQ/profile-displayphoto-shrink_200_200/0/1697024572826?e=1704326400&v=beta&t=TUTJjbR4Tz97J_hzXRmlsRxp5n0BAy-5V-7cuyGhsGs" style="width: 80%;height:auto">
+                              <img class="rounded-circle" src="https://media.licdn.com/dms/image/D5603AQFjUz0M6VFEMQ/profile-displayphoto-shrink_200_200/0/1697024572826?e=1704326400&v=beta&t=TUTJjbR4Tz97J_hzXRmlsRxp5n0BAy-5V-7cuyGhsGs" style="width: 100%;height:auto">
                             </div>
                         </div>
                         <div class="col-12 pt-5">
@@ -78,32 +78,46 @@
 
               <!-- about me section-->
 
-              <section class="bg-light " id="about-me">
+              <section class="bg-light " id="about-me" style="position: relative;">
+                <div class="overlay">
                 <div class="container">
-                  <div class="col-12 col-md-12 text-center">
-                    <h2 class="pt-4">ABOUT ME  !</h2>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <h2 class="pt-4 text-light">About Me  !</h2>
+                    </div>
+                    <div class="col-12 col-sm-12" id="about-content">
+                      <p class="text-light pt-3" style="text-align: justify;">
+                        I am a dedicated and passionate frontend developer with a strong commitment to creating engaging and user-friendly digital experiences. With a keen eye for design and a deep understanding of web technologies, I specialize in translating design concepts into functional, interactive, and responsive websites. My goal is to create web interfaces that not only meet the technical requirements but also resonate with users, delivering value and delighting them with every interaction. I am always eager to take on new challenges and projects that allow me to leverage my frontend skills to create innovative and impactful digital solutions.
+                      </p>
+                    </div>
                   </div>
-                  <div class="col-12 col-sm-12">
-                    <p class="text-secondary pt-3" style="text-align: justify;">
-                      I am a dedicated and passionate frontend developer with a strong commitment to creating engaging and user-friendly digital experiences. With a keen eye for design and a deep understanding of web technologies, I specialize in translating design concepts into functional, interactive, and responsive websites. My goal is to create web interfaces that not only meet the technical requirements but also resonate with users, delivering value and delighting them with every interaction. I am always eager to take on new challenges and projects that allow me to leverage my frontend skills to create innovative and impactful digital solutions.
-                    </p>
                   </div>
-                </div>
                 <div class="mx-auto" id="btn-to-portfolio"><i class="fa-solid fa-caret-down" style="font-size: 2em;color: rgb(109, 44, 230);" id="icon-to-portfolio"></i></div>
+                </div>
               </section>
              <section id="sec-portfolio">
                 <div class="container">
-                  <div class="row">
-                    <h3 class="text-dark text-center mt-5 mb-5">Portfolio</h3>
-                    <a href="https://aswanth4012.github.io/Login/" style="text-decoration: none;">
-                    <div class="card col-12 col-sm-6 col-md-4">
+                  <div class="row gy-3 px-3">
+                    <div class="col-12">
+                      <h3 class="text-dark text-center mt-5 mb-5">Portfolio</h3>
+                    </div>
+                    <div class="card col-12 col-md-6">
                       <!--<iframe src="https://aswanth4012.github.io/Login/"></iframe> -->
                       <div class="card-body">
-                        <h6 class="card-title te">Glassmorphism Ligin form</h6>
-                        <p class="card-text">Responsive login form using HTML, CSS and JavaScript </p>
+                        <a href="https://aswanth4012.github.io/Login/" style="text-decoration: none;">
+                        <h6 class="card-title te">Glassmorphism Login form</h6>
+                        <p class="card-text">Colour theme changable login form using HTML, CSS and JavaScript </p>
+                        </a>
                       </div>
                     </div>
-                    </a>
+                    <div class="card col-12 col-md-6">
+                      <div class="card-body">
+                        <a href="https://aswanth4012.github.io/eatmore-site/" style="text-decoration: none;">
+                        <h6 class="card-title te">Static restaurant website</h6>
+                        <p class="card-text">Responsive static website for restaurant named eatmore</p>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </section>
@@ -113,7 +127,7 @@
                 <div class="container pb-4">
                   <div class="row">
                   <div class="header col-12">
-                    <h2 class="text-center mt-5">SKILLS</h2>
+                    <h2 class="text-center mt-5">Skills</h2>
                     <p class="text-center">Skills are live progression and it will update based on improvements</p>
                   </div>
                   <div class="card col-12 col-md-4 mt-3" style="border: none;">
@@ -221,7 +235,7 @@
 
               <section id="services" class="bg-light pb-3" style="background-color: #28c9be">
                 <div class="container">
-                  <div class="page-header pt-3 pb-3"><h2 class="text-center">SERVICES</h2></div>
+                  <div class="page-header pt-3 pb-3"><h2 class="text-center text-light">Services</h2></div>
                   <div class="row gy-3">
                     <div class="col-12 col-sm-6 col-md-4">
                       <div class="card">
@@ -335,7 +349,7 @@
               <footer class="bg-dark">
                 <div class="pt-3 foot-copy" style="text-align: center;height: fit-content;">
                   
-                  <p class="text-light">&copy; 2023 <b>mXplora</b> All rights reserved.</p>
+                  <p class="text-light">&copy; 2023 On Test. All rights reserved.</p>
                 </div>
                 <div class="foot-designed" style="text-align: center;height: fit-content;">
                   <p class="text-light pb-5" style="margin-top: -7px;"><span>Designed by : <i class="bi bi-lightning-fill" style="font-size: 10px;"></i>  Aswanth</span> </p>

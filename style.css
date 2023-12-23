@@ -97,3 +97,69 @@
 /*#info{
   /*border-style: solid;*
 }*/
+#name-header{
+  font-size: 45px;
+}
+@media (max-width:760px){
+  #name-header{
+    font-size: 25px;
+  }
+}
+div#content{
+  padding-right: 13rem;
+}
+@media (max-width:992px){
+  div#content{
+    padding-right: 5px;
+  }
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#about-me{
+  background-image: url(Images/desktop-wallpaper-nillia-webdesign-web-development-management.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  
+  
+}
+#about-content{
+  padding-right: 32rem;
+}
+
+@media (max-width:1000px){
+  #about-content{
+    padding-right: 14rem;;
+  }
+}
+@media (max-width:760px){
+  #about-content{
+    padding-right: 5px;
+  }
+  #about-me{
+    background-size: cover
+  }
+}
+#services{
+  background-image: url(Images/key.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
