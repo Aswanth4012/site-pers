@@ -163,3 +163,47 @@ div#content{
   background-attachment: fixed;
   background-size: cover;
 }
+.simple{
+  background-image: url(Images/abstract-dark-purple-3d-background-with-purple-and-white-lines-paper-cut-style-textured-usable-for-decorative-web-layout-poster-banner-corporate-brochure-and-seminar-template-design-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10em;width: auto;
+}
+.advanced{
+  background-image: url(Images/abstract-dark-purple-3d-background-with-purple-and-white-lines-paper-cut-style-textured-usable-for-decorative-web-layout-poster-banner-corporate-brochure-and-seminar-template-design-vector.jpg);
+  filter: grayscale();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10em;width: auto;
+}
+.others{
+  background-image: url(Images/abstract-dark-purple-3d-background-with-purple-and-white-lines-paper-cut-style-textured-usable-for-decorative-web-layout-poster-banner-corporate-brochure-and-seminar-template-design-vector.jpg);
+  filter: grayscale();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10em;width: auto;
+}
+.te{
+  font-size: 20px;
+}
+.te-disabled{
+  color: rgb(107, 106, 106);
+  font-size: 20px;
+}
+.half-hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  height: 85%;
+  
+}
+.half-hover button{
+  height: 30px;width: 60px;
+  background-color: rgb(247, 244, 248);
+  color: black;
+  border: none;
+  border-radius: 9px;
+}
