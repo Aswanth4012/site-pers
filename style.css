@@ -27,7 +27,7 @@
   transform: scale(1.5);
 }
 #contact-me{
-  background: linear-gradient(rgb(114, 47, 238), rgb(125, 62, 243));
+  background-color: rgba(15, 15, 15,10);
 }
 .l-contact{
   color: white;
@@ -43,7 +43,7 @@
   background-color: rgb(197, 169, 75);
 }   
 #profile-section{
-  background: white /*linear-gradient(rgb(130, 49, 223),rgb(111, 0, 255));*/
+  background:linear-gradient(to bottom left,rgb(32, 37, 32),black);
 }
 #overlay{
   display: none;
@@ -75,14 +75,14 @@
   height: 12px;
 }
 .service-icon{
-  color: rgb(109, 44, 230);;
+  color:color-mix(in hsl shorter hue, rgb(17, 204, 17) 50%, rgb(80, 216, 175) 50%);
   font-size: 50px
 }
 .disabled{
-  color: rgb(184, 182, 181); /*Both backend works are disabled -- class added disabled*/
+  color: rgb(122, 121, 121); /*Both backend works are disabled -- class added disabled*/
 }
 #nav-bar{
-  background:linear-gradient(rgb(114, 47, 238), rgb(125, 62, 243))
+  background:linear-gradient(to bottom left,rgb(46, 61, 46),black);
 }
 #sec-portfolio{
   display: none;
@@ -115,6 +115,7 @@ div#content{
 }
 .navbar-toggler{
     border: none;
+    background-color: rgb(247, 250, 247);
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -157,27 +158,28 @@ div#content{
   }
 }
 #services{
-  background-image: url(Images/key.jpg);
+  /*background-image: url(Images/key.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover;*/
+  background-color: rgba(15, 15, 15,10);
 }
 .simple{
-  background-image: url(Images/abstract-dark-purple-3d-background-with-purple-and-white-lines-paper-cut-style-textured-usable-for-decorative-web-layout-poster-banner-corporate-brochure-and-seminar-template-design-vector.jpg);
+  background-image: url(Images/ben10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 10em;width: auto;
 }
 .advanced{
-  background-image: url(Images/abstract-dark-purple-3d-background-with-purple-and-white-lines-paper-cut-style-textured-usable-for-decorative-web-layout-poster-banner-corporate-brochure-and-seminar-template-design-vector.jpg);
+  background-image: url(Images/ben10.jpg);
   filter: grayscale();
   background-repeat: no-repeat;
   background-size: cover;
   height: 10em;width: auto;
 }
 .others{
-  background-image: url(Images/abstract-dark-purple-3d-background-with-purple-and-white-lines-paper-cut-style-textured-usable-for-decorative-web-layout-poster-banner-corporate-brochure-and-seminar-template-design-vector.jpg);
+  background-image: url(Images/ben10.jpg);
   filter: grayscale();
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,7 +197,7 @@ div#content{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(66, 64, 64, 0.733);
   opacity: 1;
   height: 89%;
   
@@ -207,4 +209,16 @@ div#content{
   color: black;
   border: none;
   border-radius: 9px;
+}
+.skills-format-font{
+  color: rgb(13, 14, 13);
+}
+.card-service{
+  background:linear-gradient(to bottom left,rgb(10, 10, 10),rgb(60, 97, 60))
+}
+.ms-3{
+  color: rgb(80, 216, 175);
+}
+.footer{
+  background:linear-gradient(to bottom left,rgb(10, 10, 10),rgb(60, 97, 60))
 }
