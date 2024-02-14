@@ -222,3 +222,12 @@ div#content{
 .footer{
   background:linear-gradient(to bottom left,rgb(10, 10, 10),rgb(60, 97, 60))
 }
+.icon-skills{
+  color:white;
+}
+#skills{
+  background-color: rgba(15, 15, 15,10);
+}
+code{
+  color:white
+}
