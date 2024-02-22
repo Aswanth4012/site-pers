@@ -180,7 +180,6 @@ div#content{
 }
 .others{
   background-image: url(Images/ben10.jpg);
-  filter: grayscale();
   background-repeat: no-repeat;
   background-size: cover;
   height: 10em;width: auto;
